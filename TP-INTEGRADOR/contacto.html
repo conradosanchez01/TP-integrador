@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/index.html">
+                <img src="/assets/logo que diga detail.png" alt="logo">
+            </a>
+        </div>
+
+
+        <nav   class="nav">
+            <a href="index.html">Inicio</a>
+            <a href="/servicios.html">Servicios</a>
+            <a href="/nosotros.html">Nosotros</a>
+            <a href="/contacto.html">Contacto</a>
+        </nav>
+
+    </header>
+
+    <section class="imagen_principio">
+        <!--  imagen de fondo con texto encima -->
+        <div class="imagen_fondo">
+            <img src="/assets/generate a full widt.png" alt="Imagen de fondo">
+        </div>
+       
+        <!--  texto encima de la imagen -->
+        <div class="textoencima">
+            <h1>Contactanos</h1>
+            <p>Acercate a nosotros por Calle Falsa 123, por llamada o por mensaje al +54 9 xxxx-xxxxxx por asistencia personalizada o concretar una cita.</p>
+           <p>Podes llenar el formulario de abajo para que nosotros nos contactemos contigo.</p>
+        </div>
+    </section>
+
+
+<div class="contenedor_contacto_formulario">
+     <form class="formulario_contacto" action="/index.html" method="post">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Telefono</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="vehicle">Año / Marca / Modelo</label>
+        <input type="text" id="vehicle" name="vehicle" required>
+
+        <label for="message">Tu mensaje (Opcional)</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit" class="boton_submit">Enviar</button>
+    </form>
+</div>
+    
+
+
+        <!-- Footer -->
+    <footer class="footer">
+        <div class="footer_contenedor">
+            <div class="logo_footer">
+                <img src="/assets/logo que diga detail.png" alt="Logo">
+            </div>
+            <!-- Contacto + redes -->
+            <div class="contacto_footer">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>Teléfono: +54 9 xxxx-xxxxxx</li>
+                    <li>Email: detail@gmail.com</li>
+                    <li>Dirección: Calle Falsa 123, Ciudad</li>
+                </ul>
+            </div>
+
+            <div class="redes_footer">
+                <h3>Síguenos en redes sociales</h3>
+                <ul>
+                    <li>Facebook: @detail</li>
+                    <li>Instagram: @detail</li>
+                    <li>Twitter: @detail</li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+</html>
